@@ -96,6 +96,12 @@ main {
     text-align: center;
     font-size: 50px;
     -webkit-text-stroke: 0.01em rgb(0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section-1 h3 {
+    margin-top: 0;
 }
 
 .button-1 {
@@ -154,10 +160,14 @@ main {
     text-align: center;
     font-size: 50px;
     -webkit-text-stroke: 0.01em rgb(11, 255, 6);
+    margin-bottom: 0;
 }
 
 .section-2 h3 {
+    margin-top: 0;
     margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .button-2 {
@@ -173,7 +183,7 @@ main {
     border-color: transparent;
     border-style: solid;
     padding: 0.5em 1em 0.5em 1em;
-    margin: 3rem 0rem 1rem 50rem;
+    margin: 3rem 0rem 1rem 40rem;
 }
 
 .button-2:active {
@@ -197,13 +207,14 @@ main {
 /* Lainnya container */
 .lainnya {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 0px;
 }
 
 .lainnya h2 {
     text-align: center;
     margin: 0 0 2rem 0;
     font-size: 50px;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -243,6 +254,7 @@ figcaption {
     font-size: 50px;
     color: red;
     padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 /* Aside */
@@ -438,6 +450,11 @@ footer a:hover {
         padding: 0;
         width: 100%;
         font-size: 12px;
+    }
+
+    .section-2 h3{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .section-22 {
