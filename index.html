@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project</title>
+    <title>Liburan Lampung</title>
 
     <!--Css-->
     <link rel="stylesheet" href="assets/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -17,10 +19,10 @@
                 <a href="#"><img class="primary-ikon" src="assets/summer.png"></a>
             </div>
             <ul class="nav-list" id="navi-list">
-                <li class="list-item"><a href=".pantai">Pantai</a></li>
-                <li class="list-item"><a href=".air-terjun">Air terjun</a></li>
-                <li class="list-item"><a href=".lainnya">Lainnya</a></li>
-                <li class="list-item"><a href=".about">About</a></li>
+                <li class="list-item"><a href="#pantai">Pantai</a></li>
+                <li class="list-item"><a href="#air-terjun">Air terjun</a></li>
+                <li class="list-item"><a href="#lainnya">Lainnya</a></li>
+                <li class="list-item"><a href="#about">About</a></li>
             </ul>
             <div class="menu" id="toogle">
                 <div class="menu-line"></div>
@@ -32,58 +34,178 @@
 
     <!-- Main -->
     <main>
+        <!-- Welcome section -->
         <section class="welcome">
             <h1>Welcome to Liburan Lampung</h1>
             <a><img src="assets/lampung1.jpg" alt=""></a>
         </section>
 
-        <section class="pantai">
+        <!-- Pantai -->
+        <section class="pantai" id="pantai">
             <div class="section-1">
                 <h2>Pantai</h2>
                 <br>
                 <h3>Pernahkah anda mengunjungi pantai yang memiliki akses mudah, bersih dan pastinya terjangkau.
-                    Lampung memiliki sebuah pantai yang kaya akan keindahan alamnya. Mulai dari pantai Mahitam, Sari Ringgung, Pahawang, dan masih banyak lagi
-                    destinasi pantai yang dapat kamu kunjungi pada provisi nan cantik ini. Ayo tunggu apa lagi daftarkan diri kamu segera !!!
+                    Lampung memiliki sebuah pantai yang kaya akan keindahan alamnya. Mulai dari pantai Mahitam, Sari
+                    Ringgung, Pahawang, dan masih banyak lagi
+                    destinasi pantai yang dapat kamu kunjungi pada provisi nan cantik ini. Ayo tunggu apa lagi daftarkan
+                    diri kamu segera !!!
                 </h3>
+                <button id="button-1" class="button-1" onclick="rubah()">Pelajari Selengkapnya</button>
             </div>
             <div class="section-11">
                 <img class="img-1" src="assets/pantai.jpg" alt="">
             </div>
         </section>
 
-        <section class="air-terjun"></section>
-        <section class="lainnya"></section>
-        <section class="about">
-            <div class="container">
-                <div>
-                    <div>
-                        <h1>About Me</h1>
-                    </div>
+        <div class="clear"></div>
+
+        <!-- Air Terjun -->
+        <section class="air-terjun" id="air-terjun">
+            <article>
+                <div class="section-2">
+                    <h2>Air Terjun</h2>
+                    <br>
+                    <h3>Selain pantai, provinsi Lampung juga masih memiliki destinasi pariwisata yang tak kalah keren.
+                        Salah
+                        satunya yaitu Air terjun, kaian dapat
+                        menemukan berbagai Air Terjun yang cantik disini. Contoh air terjun yang admin pernah kunjungi
+                        adalah Air terjun batu putu. Selain itu, masih banyak
+                        pilihan Air terjun yang indah pada provinsi lampung. Untuk dapat melihat apa saja Air terjun
+                        yang
+                        ada di provinsi Lampung ini kalian dapat menekan tombol
+                        dibawah ini.
+                    </h3>
                 </div>
-                <div>
-                    <div>
-                        <h2 style="text-align: justify;">Assalamu'alaikum...</h2>
-                        <p style="text-align: justify;">Perkenalkan nama saya Affan Maulana mahasiswa
-                            Teknik Informatika angkatan 2020. Saya memilih jurusan Teknik Informatika yang terkenal pada
-                            bidang teknologi karena kedepannya teknologi semakin berkembang dan tidak akan mati. Saya
-                            berharap teknologi tersebut dapat saya pelajari dengan sungguh-sungguh sehingga nantinya bisa
-                            berkontribusi pada perkembangan dunia. Melalui mata kulaih Pemrograman Web saya berharap menjadi
-                            seoarang yang ahli dalam pembuatan web.</p>
-                    </div>
+                <div class="section-22">
+                    <img class="img-2" src="assets/air-terjun.jpg" alt="">
+                    <button id="button-2" class="button-2 clear" onclick="rubah2()">Pelajari Selengkapnya</button>
+                </div>
+            </article>
+        </section>
+
+        <!-- Lainnya -->
+        <section class="lainnya" id="lainnya">
+            <h2>Wisata Lainnya</h2>
+            <div class="container">
+                <div class="box">
+                    <img id="box-1" src="assets/way-kambas.jpg" alt="way kambas">
+                    <figcaption>Way Kambas</figcaption>
+                </div>
+                <div class="box">
+                    <img id="box-2" src="assets/pahawang.jpg" alt="way kambas">
+                    <figcaption>Pahawang</figcaption>
+                </div>
+                <div class="box box3">
+                    <img id="box-3" src="assets/alam.jpg" alt="way kambas">
+                    <figcaption>Wisata Alam</figcaption>
                 </div>
             </div>
         </section>
 
+        <section class="about" id="about">
+            <h1>About US</h1>
+        </section>
+        <aside class="aside-1">
+            <article class="profile card">
+                <section id="identity">
+                    <figure>
+                        <img class="image-profile" src="assets/affan.jpg">
+                    </figure><br>
+                    <p>Perkenalkan nama saya Affan, saya adalah mahasiswa
+                        Teknik Informatika angkatan 2020. Saya memilih jurusan Teknik Informatika karena kedepannya
+                        teknologi semakin berkembang dan tidak akan mati.
+                        Melalui dicoding ini saya berharap bisa menjadi seorang web developer yang handal dan
+                        berkualitas.</p>
+                    <br>
+                </section>
 
-        <aside>
+                <section id="identity">
+                    <h3 style="text-align: center;">Identitas Penulis</h3>
+                    <table>
+                        <tr>
+                            <th>Nama Lengkap</th>
+                            <td>: Affan Maulana</td>
+                        </tr>
+                        <tr>
+                            <th>Domisili</th>
+                            <td>: Kota Bandar Lampung</td>
+                        </tr>
+                        <tr>
+                            <th>Instansi</th>
+                            <td>: Universitas Lampung</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>: 9 Agustus 2002</td>
+                        </tr>
+                        <tr>
+                            <th>Nomor Telepon</th>
+                            <td>: 089619258640</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>: Ngoding</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </aside>
 
+        <aside class="aside-2">
+            <article class="profile card">
+                <section id="identity">
+                    <figure>
+                        <img class="image-profile" src="assets/wafa.jpg">
+                    </figure><br>
+                    <p>Perkenalkan nama beliau wafa, beliau adalah mahasiswa
+                        Teknik Informatika angkatan 2020 yang sekaligus teman saya. Beliau juga memilih jurusan Teknik
+                        Informatika pada salah satu Universitas di Lampung.
+                        Beliau adalah programmer Bahasa Java yang handal dan berkualitas.</p>
+                    <br>
+                </section>
+
+                <section id="identity">
+                    <h3 style="text-align: center;">Identitas Kolega</h3>
+                    <table>
+                        <tr>
+                            <th>Nama Lengkap</th>
+                            <td>: Muhammad Wafa</td>
+                        </tr>
+                        <tr>
+                            <th>Domisili</th>
+                            <td>: Kota Bandar Lampung</td>
+                        </tr>
+                        <tr>
+                            <th>Instansi</th>
+                            <td>: Universitas Lampung</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>: 6 Juli 2002</td>
+                        </tr>
+                        <tr>
+                            <th>Nomor Telepon</th>
+                            <td>: 089619258610</td>
+                        </tr>
+                        <tr>
+                            <th>Hobi</th>
+                            <td>: Java</td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
         </aside>
     </main>
 
     <!-- Footer -->
     <footer>
-
+        <p>Created with <a href="#"><img class="footer-ikon" src="assets/heart.png"></a> by <a class="affan"
+                href="https://www.instagram.com/affan_maulaana/"> Affan Maulana</a>
+        </p>
+        <button id="scroll-btn" onclick="topFunction()">Kembali Keatas</button>
     </footer>
+    <!-- Akhir Footer -->
 </body>
 
 <!-- Script -->
