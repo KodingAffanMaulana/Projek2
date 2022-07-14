@@ -1,6 +1,4 @@
-# Projek2
-
-<h1 style="text-align: center">Website Liburan Lampung </h1>
+<h1>Website Liburan Lampung </h1>
 <p>Sebuah website one page sederhana yang menampilkan informasi wisata, masih banyak yang bisa dikembangkan lagi dalam website ini</p> <br>
 <p>Website ini dibuat untuk memenuhi tugas dicoding academy</p>
 
