@@ -15,7 +15,6 @@
     font-size: 20px;
     position: fixed;
     width: 100%;
-    height: 60px;
 }
 
 .nav-list {
@@ -54,23 +53,23 @@
 
 main {
     padding: 20px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .welcome {
     text-align: center;
     padding-top: 40px;
-    padding-bottom: 100px;
-    box-shadow: 8px 8px 15px 8px rgba(0, 0, 0, 0.2);
+    padding-bottom: 30px;
+    border-bottom: dashed #1bf0ff 2px;
 }
 
 .welcome h1 {
-    padding: 50px;
+    padding: 20px;
     text-decoration: solid;
     color: rgba(233, 222, 12, 0.66);
     font-size: 60px;
     font-weight: bolder;
-    -webkit-text-stroke: 0.02em rgb(0, 0, 0);
+    /* -webkit-text-stroke: 0.02em rgb(0, 0, 0); */
 }
 
 .welcome a img {
@@ -84,27 +83,27 @@ main {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
+    border-bottom: dashed #f6ff00fc 2px;
 }
 
 .section-1 {
     overflow: auto;
     text-align: justify;
-    color: rgb(224, 171, 22);
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .section-1 h2 {
-    color: aquamarine;
+    color: rgb(255, 191, 0);
     text-align: center;
     font-size: 50px;
-    -webkit-text-stroke: 0.01em rgb(0, 0, 0);
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .section-1 h3 {
     margin-top: 0;
+    color: rgb(163, 163, 163);
 }
 
 .button-1 {
@@ -146,14 +145,13 @@ main {
 
 /* Air terjun */
 .air-terjun {
-    box-shadow: 8px 8px 9px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     padding-top: 20px;
+    border-bottom: dashed #00ff00fc 2px;
 }
 
 .section-2 {
     text-align: justify;
-    color: rgb(10, 144, 26);
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -171,6 +169,7 @@ main {
     margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    color: rgb(163, 163, 163);
 }
 
 .button-2 {
@@ -206,18 +205,10 @@ main {
     margin: auto;
 }
 
-.img-1:hover {
-    width: 600px;
-}
-
-.img-2:hover {
-    width: 600px;
-}
 
 /* Lainnya container */
 .lainnya {
-    padding-top: 100px;
-    padding-bottom: 0px;
+    padding: 20px 0;
 }
 
 .lainnya h2 {
@@ -358,6 +349,7 @@ footer a:hover {
 }
 
 #scroll-btn:hover {
+    cursor: pointer;
     border-radius: 20px;
     background-color: rgb(255, 0, 0);
 }
@@ -432,7 +424,6 @@ footer a:hover {
 
     .section-1 {
         text-align: justify;
-        color: rgb(224, 171, 22);
     }
 
     .section-1 h2 {
@@ -472,9 +463,6 @@ footer a:hover {
 
     /* Section air terjun */
     .air-terjun {
-        display: block;
-        padding: 0;
-        width: 100%;
         font-size: 12px;
     }
 
@@ -508,7 +496,7 @@ footer a:hover {
 
     /* Lainnya container */
     .lainnya {
-        padding-bottom: 100px;
+        border-top: dashed #040404fc 2px;
     }
 
     .lainnya h2 {
