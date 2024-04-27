@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
     font-family: cursive;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -298,14 +301,9 @@ table {
 
 /* Footer */
 footer {
-    height: 230px;
+    padding: 10px 0 10px 0;
     background-color: rgb(38, 55, 49);
     color: white;
-}
-
-footer p {
-    text-align: center;
-    padding: 30px 20px 5px 20px;
 }
 
 .footer-ikon {
@@ -326,7 +324,7 @@ footer a:hover {
     margin-bottom: 20px;
 }
 
-.aset{
+.aset {
     line-height: 1;
     border-width: 5px;
     border-radius: 10px;
@@ -336,8 +334,8 @@ footer a:hover {
     padding: 0em 0em 0em 0em;
     margin: 10px;
 }
+
 .imgs:hover {
-    width: 50px;
     border-radius: 20px;
     background-color: white;
 }
@@ -560,7 +558,7 @@ footer a:hover {
         width: 100%;
         padding: 0 0 0 0;
     }
-    
+
 
     table {
         margin-left: 0px;
@@ -609,8 +607,8 @@ footer a:hover {
         text-align: center;
         margin-bottom: 10px;
     }
-    
-    .aset{
+
+    .aset {
         line-height: 1;
         border-width: 5px;
         border-radius: 10px;
@@ -621,7 +619,7 @@ footer a:hover {
         margin: 5px;
     }
 
-    .aset > img {
+    .aset>img {
         width: 20px;
     }
 
